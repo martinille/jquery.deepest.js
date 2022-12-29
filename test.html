@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>test of jquery.deepest.js</title>
+	<script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+	<script src="jquery.deepest.js"></script>
+	
+	<script>
+		
+		function escape(htmlStr) {
+			return htmlStr.replace(/&/g, "&amp;")
+				.replace(/</g, "&lt;")
+				.replace(/>/g, "&gt;")
+				.replace(/"/g, "&quot;")
+				.replace(/'/g, "&#39;");
+			
+		}
+		
+		$(function() {
+			// looking for any deepest element in #test1
+			let $test1deepest = $("#test1").deepest();
+			$("#result1").html('Deepest element of <b>#test1</b> DOM tree is: <b>' + escape($test1deepest.get()[0].outerHTML) + '</b>');
+			
+			// looking for any deepest element in #test1
+			let $test2deepest = $("#test2").deepest('span');
+			$("#result2").html('Deepest element of <b>#test2</b> DOM tree is: <b>' + escape($test2deepest.get()[0].outerHTML) + '</b>');
+		});
+		
+	</script>
+	
+	<style>
+		#test1, #test2 {
+			display: none;
+		}
+	</style>
+	
+</head>
+<body>
+
+
+	<div id="test1">
+		<div class="level1">
+			<div class="level2">
+				<div class="level3"></div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="test2">
+		<ul>
+			<li><a href="#">link1</a></li>
+			<li><a href="#">link2<span></span></a></li>
+			<li><a href="#">link3</a></li>
+		</ul>
+	</div>
+
+	<div id="result1"></div>
+	<div id="result2"></div>
+
+
+</body>
+</html>

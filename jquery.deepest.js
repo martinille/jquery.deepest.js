@@ -8,7 +8,7 @@
 			$deepestChildSet;
 		
 		this.each(function () {
-			$parent = $(this);
+			let $parent = $(this);
 			$parent
 				.find((selector || '*'))
 				.each(function () {
