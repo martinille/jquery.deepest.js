@@ -30,5 +30,5 @@ JavaScript:
         console.log($deepest1); // returns JQuery element '<div class="level3"></div>'
 
         let $deepest2 = $("#test2").deepest('span');
-        console.log($deepest1); // returns JQuery element '<span></span>'
+        console.log($deepest2); // returns JQuery element '<span></span>'
     </script>
