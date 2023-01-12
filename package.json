@@ -1,0 +1,24 @@
+{
+  "name": "jquery.deepest.js",
+  "version": "1.0.0",
+  "description": "A plugin that allows developers to access the deepest children of a DOM element.",
+  "main": "jquery.deepest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinille/jquery.deepest.js.git"
+  },
+  "keywords": [
+    "jquery",
+    "jquery-selector",
+    "jquery-element"
+  ],
+  "author": "Martin Ille <ille.martin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/martinille/jquery.deepest.js/issues"
+  },
+  "homepage": "https://github.com/martinille/jquery.deepest.js#readme"
+}
