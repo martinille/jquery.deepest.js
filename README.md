@@ -1,5 +1,11 @@
 # jquery.deepest.js
-Get the deepest children of each element in the set of matched elements, optionally filtered by a selector.
+
+A plugin that allows developers to access the deepest children of a DOM element, and is less than 1kb in size.
+
+Retrieve the children at the deepest level of the DOM tree for each element in the set of matched elements, with the option to filter these children using a selector.
+
+
+
 
 ---
 
