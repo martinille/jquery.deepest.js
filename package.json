@@ -11,9 +11,11 @@
     "url": "git+https://github.com/martinille/jquery.deepest.js.git"
   },
   "keywords": [
+    "javascript",
     "jquery",
     "jquery-selector",
-    "jquery-element"
+    "jquery-element",
+    "dom"
   ],
   "author": "Martin Ille <ille.martin@gmail.com>",
   "license": "MIT",
