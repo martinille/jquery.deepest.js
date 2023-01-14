@@ -4,8 +4,13 @@ A plugin that allows developers to access the deepest children of a DOM element,
 
 Retrieve the children at the deepest level of the DOM tree for each element in the set of matched elements, with the option to filter these children using a selector.
 
+---
 
+### Install with npm
 
+```shell
+npm i jquery.deepest.js
+```
 
 ---
 
