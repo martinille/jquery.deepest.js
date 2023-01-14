@@ -15,8 +15,12 @@
     "jquery",
     "jquery-selector",
     "jquery-element",
+    "jquery-plugin",
     "dom"
   ],
+  "dependencies": {
+    "jquery": ">=3.0.0"
+  },
   "author": "Martin Ille <ille.martin@gmail.com>",
   "license": "MIT",
   "bugs": {
