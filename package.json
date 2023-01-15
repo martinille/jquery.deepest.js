@@ -1,6 +1,6 @@
 {
   "name": "jquery.deepest.js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A plugin that allows developers to access the deepest children of a DOM element.",
   "main": "jquery.deepest.js",
   "scripts": {
