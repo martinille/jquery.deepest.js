@@ -19,7 +19,7 @@
     "dom"
   ],
   "dependencies": {
-    "jquery": ">=3.0.0"
+    "jquery": ">=3.0.0 <4.0.0"
   },
   "author": "Martin Ille <ille.martin@gmail.com>",
   "license": "MIT",
