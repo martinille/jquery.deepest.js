@@ -1,5 +1,8 @@
 /**
- * Get the deepest children of each element in the set of matched elements, optionally filtered by a selector.
+ * Find the deepest child element within each element in the set of matched elements.
+ *
+ * @param {string} selector - Optional. A selector expression to filter the deepest child elements.
+ * @return {object} Returns a jQuery object containing the deepest child elements.
  */
 (function ($) {
 	$.fn.deepest = function (selector) {
